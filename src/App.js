@@ -21,6 +21,8 @@ function App() {
       <Header/>
       <Navigation/>
 
+
+      <AboutMe/>
     </div>
 
   );

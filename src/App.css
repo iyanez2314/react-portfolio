@@ -1,11 +1,10 @@
-.position-absolute {
-  margin-top: 250px;
-  padding-left: 30px;
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans:wght@300&display=swap');
+
+
+* {
+  font-family: 'Fredoka One'; 
+  color: #ffff;
 }
 
-.navbar {
-  list-style-type: none;
-  margin-top: 291px;
-  padding-left: 96px;
-  position: fixed;
-}
+

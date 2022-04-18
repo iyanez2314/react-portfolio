@@ -4,9 +4,9 @@ import React from "react";
 function Header () {
     return (
         <div>
-        <div className="position-absolute">
-          <div className="mb-5">
-          <h1>Isaac Yanez</h1>
+        <div >
+          <div className="container">
+          <h1 className="lead text-start display-1 p-1">Isaac Yanez</h1>
           </div>
         </div>
 
