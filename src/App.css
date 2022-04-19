@@ -4,7 +4,14 @@
 
 * {
   font-family: 'Fredoka One'; 
-  color: #ffff;
 }
 
 
+.nav-bar{
+  color: white;
+  text-decoration: none;
+}
+
+.display-6{
+  padding-top: 64px;
+}
