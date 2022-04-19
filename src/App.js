@@ -4,10 +4,11 @@ import Navigation from './components/Navigation';
 import AboutMe from './Pages/About-me';
 import Projects from './Pages/Projects';
 import Contact from './Pages/Contact';
+import Footer from './components/Footer';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
-
+import 'react-bootstrap-icons'
 function App() {
 
   const myStyle = {
@@ -25,6 +26,7 @@ function App() {
       <AboutMe/>
       <Projects/>
       <Contact/>
+      <Footer/>
     </div>
 
   );
