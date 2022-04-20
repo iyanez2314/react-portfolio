@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, Nav, Container, Offcanvas, NavDropdown, FormControl, Form, Button } from 'react-bootstrap';
+import { Navbar, Nav, Container } from 'react-bootstrap';
 
 
 function Navigation () {
