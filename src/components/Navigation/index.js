@@ -3,7 +3,7 @@ import { Navbar, Nav, Container, Offcanvas, NavDropdown, FormControl, Form, Butt
 
 
 function Navigation () {
-    return (
+     return (
         <Navbar expand="lg">
   <Container>
     <Navbar.Brand href="#">Home</Navbar.Brand>
@@ -14,9 +14,9 @@ function Navigation () {
         style={{ maxHeight: '100px' }}
         navbarScroll
       >
-        <Nav.Link href="#action2">Github</Nav.Link>
-        <Nav.Link href="#action2">LinkedIn</Nav.Link>
-        <Nav.Link href="#action2">Contact me</Nav.Link>
+        <Nav.Link href="https://github.com/iyanez2314" target="_blank">Github</Nav.Link>
+        <Nav.Link href="https://www.linkedin.com/in/isaac-yanez/" target="_blank">LinkedIn</Nav.Link>
+        <Nav.Link href="#contact-form">Contact me</Nav.Link>
         <Nav.Link href="#action2">Resume</Nav.Link>
       </Nav>
     </Navbar.Collapse>

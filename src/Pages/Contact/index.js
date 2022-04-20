@@ -3,7 +3,7 @@ import { Form, Button, FloatingLabel } from 'react-bootstrap';
 
 function Contact () {
     return (
-        <section className='bg-light mt-5 pb-3'>
+        <section className='bg-light mt-5 pb-3' id="contact-form">
             <div className='container-lg'>
                 <div className='text-center py-4'>
                     <h2>
@@ -43,6 +43,7 @@ function Contact () {
                 <Button variant="primary" type="submit">
                     Submit
                 </Button>
+               
     </Form>
             </div>    
             </div>
