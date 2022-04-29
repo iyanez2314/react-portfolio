@@ -11,7 +11,7 @@ function Contact () {
                     </h2>
                 </div>
 
-            <div className='row my-5 align-items-center justify-content-center'>
+            <div className='row my-4 align-items-center justify-content-center'>
     <Form>
             <Form.Group className="mb-3" controlId="formBasicEmail">
                 <FloatingLabel

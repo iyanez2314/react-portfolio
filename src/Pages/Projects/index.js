@@ -12,7 +12,7 @@ function Projects () {
                 </h2>
                 </div>
 
-<div className="row my-5 align-items-center justify-content-center g-3">
+<div className="row my-3 align-items-center justify-content-center g-3">
 <div className="col-8 col-lg-4 col-xl-3">
         <Card className="border-0">
     <Card.Body className="text-center py-4">
