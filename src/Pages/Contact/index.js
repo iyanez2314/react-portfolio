@@ -2,6 +2,10 @@ import React from 'react';
 import { Form, Button, FloatingLabel } from 'react-bootstrap';
 
 function Contact () {
+    const onClickButton = (event) => {
+        event.preventDefault()
+    }
+
     return (
         <section className='bg-light mt-5 pb-3' id="contact-form">
             <div className='container-lg'>
@@ -40,10 +44,9 @@ function Contact () {
             />
             </FloatingLabel>
             </Form.Group>
-                <Button variant="primary" type="submit">
+            <Button variant="primary" type="submit" onSubmit={onClickButton}>
                     Submit
                 </Button>
-               
     </Form>
             </div>    
             </div>
